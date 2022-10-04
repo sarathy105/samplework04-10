@@ -33,11 +33,15 @@ public class Test4 {
 		countind.click();
 		WebElement btn=driver.findElement(By.xpath("//button[@id='submitbtn']"));
 		btn.click();
+		String attribute = txt.getAttribute("value");
+		System.out.println(attribute);
+		String attribute1 = txt2.getAttribute("value");
+		System.out.println(attribute1);
 		String attribute3 = txt3.getAttribute("value");
 		System.out.println(attribute3);
 		String attribute4 = email.getAttribute("value");
 		System.out.println(attribute4);
-		
+
 	}
 
 }
