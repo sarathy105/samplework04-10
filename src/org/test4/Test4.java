@@ -33,6 +33,10 @@ public class Test4 {
 		countind.click();
 		WebElement btn=driver.findElement(By.xpath("//button[@id='submitbtn']"));
 		btn.click();
+		String attribute = txt.getAttribute("value");
+		System.out.println(attribute);
+		String attribute1 = txt2.getAttribute("value");
+		System.out.println(attribute1);
 		
 		
 		
